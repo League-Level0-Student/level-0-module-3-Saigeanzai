@@ -6,52 +6,35 @@ public class Own_adventure {
 
 	public static void main(String[] args) {
 
-		JOptionPane.showMessageDialog(null, "You wake up to the sound of your alarm clock");
-		String selection = JOptionPane.showInputDialog("stay in bed (s) get up (g) ");
-
-		// Stay in bed -
-
-		if (selection.equals("s")) {
+		JOptionPane.showMessageDialog(null, "You wake up to find yourself in a forest");
+		JOptionPane.showMessageDialog(null, "Suddenly you hear a noise in the bush");
+		String noise = JOptionPane.showInputDialog("Go see what is making the noise (g) ignore it (n)");
+		// (g1)
+		if (noise.equals("g")) {
+			JOptionPane.showMessageDialog(null, "You walk towards the bush and find a strange animal");
+			JOptionPane.showMessageDialog(null, "The strange animal looks like a fox and bird combined");
+			JOptionPane.showMessageDialog(null, "It stares at you for a couple moments, then it screams and runs away");
+		}
+		// (n1)
+		if (noise.equals("n")) {
 			JOptionPane.showMessageDialog(null,
-					"After a couple hours you get up to realize that you forgot about the job interview");
-			String options = JOptionPane.showInputDialog(null,
-					"get ready for the day (r) give up and stay and bed (l)");
-
-			if (options.equals("l")) {
-				JOptionPane.showMessageDialog(null, "You get a good sleep but end up broke");
+					"You ignore the noise but after a couple seconds you feel a sharp pain in your leg");
+			JOptionPane.showMessageDialog(null,
+					"You look down and see a strange animal biting your leg. It looked like a fox and bird combined");
+			JOptionPane.showMessageDialog(null, "The animal lets go and looks up at you");
+			String option = JOptionPane.showInputDialog("Scare it away (s) run away (r)");
+			// (s2)
+			if (option.equals("s")) {
+				JOptionPane.showMessageDialog(null, "It gets scared and runs away");
+				JOptionPane.showMessageDialog(null,
+						"You start to feel bad so you follow the animal inside a cave to find a whole family of them");
+				JOptionPane.showMessageDialog(null,
+						"They all look at you and start to walk slowely closer and closer to you");
+				JOptionPane.showMessageDialog(null,
+						"The animals start to growl.. and then pounce! You wake up again to find yourself where you first woke up (restart, go back to the start)");
 			}
 
-			if (options.equals("r")) {
-				JOptionPane.showMessageDialog(null, "You get up to prepare for the interview");
-			}
+		}
 
-			String StinkyBreath = JOptionPane.showInputDialog("eat breakfast (e)");
-			if (StinkyBreath.equals("e")) {
-				JOptionPane.showMessageDialog(null, "You go to your kitchen and look into your fridge");
-			}
-		}
-		String Breakfast = JOptionPane.showInputDialog("avocado toast with egg (a) yogurt with strawberries (y)");
-		if (Breakfast.equals("a")) {
-			JOptionPane.showMessageDialog(null, "The delicious avocado toast fills you up");
-		}
-		if (Breakfast.equals("y")) {
-			JOptionPane.showMessageDialog(null, "The delicious yogurt wills you up");
-		}
-		String Gum = JOptionPane.showInputDialog("chew mint gum (m) leave the house without gum (w) ");
-	
-	if(Gum.equals("m")) {
-		 JOptionPane.showMessageDialog(null, "you chew on gum and leave the house" );
-	 }
-	if(Gum.equals("w")) {
-		 JOptionPane.showMessageDialog(null, "you leave the house " );
 	}
-	JOptionPane.showMessageDialog(null, "The car unlocks and you get in. The engine starts and you leave for the interview");
-
 }
-}
-
-
-
-
-
-

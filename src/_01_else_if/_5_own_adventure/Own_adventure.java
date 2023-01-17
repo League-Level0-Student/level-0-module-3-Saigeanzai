@@ -23,7 +23,7 @@ public class Own_adventure {
 					"You look down and see a strange animal biting your leg. It looked like a fox and bird combined");
 			JOptionPane.showMessageDialog(null, "The animal lets go and looks up at you");
 			String option = JOptionPane.showInputDialog("Scare it away (s) run away (r)");
-			// (s2)
+			// (s2) ending 1
 			if (option.equals("s")) {
 				JOptionPane.showMessageDialog(null, "It gets scared and runs away");
 				JOptionPane.showMessageDialog(null,
@@ -33,7 +33,7 @@ public class Own_adventure {
 				JOptionPane.showMessageDialog(null,
 						"The animals start to growl.. and then pounce! You wake up again to find yourself where you first woke up (restart, go back to the start)");
 			}
-
+		    
 		}
 
 	}

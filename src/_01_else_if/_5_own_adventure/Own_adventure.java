@@ -14,6 +14,26 @@ public class Own_adventure {
 			JOptionPane.showMessageDialog(null, "You walk towards the bush and find a strange animal");
 			JOptionPane.showMessageDialog(null, "The strange animal looks like a fox and bird combined");
 			JOptionPane.showMessageDialog(null, "It stares at you for a couple moments, then it screams and runs away");
+			JOptionPane.showMessageDialog(null, "The loud scream made you deaf");
+			JOptionPane.showMessageDialog(null, "Not being able to hear anything was a big disadvantage to survival");
+			JOptionPane.showMessageDialog(null, "So you decided to find shelter");
+			String Sea = JOptionPane.showInputDialog("Live in a cave (B) Live under the sea (S)");
+		
+		if (Sea.equals("B")) {
+			JOptionPane.showMessageDialog(null, "When you enter a cave..");
+			JOptionPane.showMessageDialog(null, "The floor collapses");
+			JOptionPane.showMessageDialog(null, "You enter a room with no doors, no windows, nothing");
+			JOptionPane.showMessageDialog(null, "You start to realize that you are stuck");
+			JOptionPane.showMessageDialog(null, "There's no escape (end)");
+			}
+		if(Sea.equals("S")) {
+			JOptionPane.showMessageDialog(null, "You dive into the water and find a small town");
+			JOptionPane.showMessageDialog(null, "You find a Krusty Krab");
+			JOptionPane.showMessageDialog(null, "You enter the restaurant and find squidward and spongebob");
+			JOptionPane.showMessageDialog(null, "You ask for a krabby patty with extra pickeles");
+			JOptionPane.showMessageDialog(null, "You sit down and eat with spongebob");
+			JOptionPane.showMessageDialog(null, "he offers to let you to live at his house. You accept");
+			JOptionPane.showMessageDialog(null, "you happily live in the pineapple under the sea for the rest of your life (end) ");
 		}
 		// (n1)
 		if (noise.equals("n")) {
@@ -50,7 +70,7 @@ public class Own_adventure {
 		    	JOptionPane.showMessageDialog(null, "After eating a couple handfulls, your stomach starts to hurt");
 		    	JOptionPane.showMessageDialog(null, "The pain gets worse and worse and then.. ");
 		    	JOptionPane.showMessageDialog(null, "POOF!!");
-		    	JOptionPane.showMessageDialog(null, "You turned into a hippo");
+		    	JOptionPane.showMessageDialog(null, "You turned into a hippo (end)");
 		    }
 		    // (i)
 		    if(food.equals("i")) {
@@ -62,24 +82,36 @@ public class Own_adventure {
 		    	JOptionPane.showMessageDialog(null, "The tasty apple fills you up but suddenly");
 		    	JOptionPane.showMessageDialog(null, "Your stomach starts to hurt and then..");
 		    	JOptionPane.showMessageDialog(null, "POOF!!");
-		    	JOptionPane.showMessageDialog(null, "You turned into a 6 legged unicorn");
+		    	JOptionPane.showMessageDialog(null, "You turned into a 6 legged unicorn (end)");
 		    }
 		    if(colorfulApples.equals("O")){
 		    	JOptionPane.showMessageDialog(null, "The tasty apple fills you up but suddenly");
 		    	JOptionPane.showMessageDialog(null, "Your stomach starts to hurt and then..");
 		    	JOptionPane.showMessageDialog(null, "POOF!!");
-		    	JOptionPane.showMessageDialog(null, "You turned into a orange");
+		    	JOptionPane.showMessageDialog(null, "You turned into a orange (end)");
 		    }
 		    if(colorfulApples.equals("I")) {
 		    	JOptionPane.showMessageDialog(null, "The tasty apple fills you up but suddenly");
 		    	JOptionPane.showMessageDialog(null, "Your stomach starts to hurt and then..");
 		    	JOptionPane.showMessageDialog(null, "POOF!!");
-		    	JOptionPane.showMessageDialog(null, "You turned into a moth");
+		    	JOptionPane.showMessageDialog(null, "You turned into a moth (end)");
+		    }
+		    if(berries.equals("m")) {
+		    	JOptionPane.showMessageDialog(null, "You ignore your hunger and start walking");
+		    	JOptionPane.showMessageDialog(null, "You come across a house");
+		    	JOptionPane.showMessageDialog(null, "The house looked old but you entered it anyway");
+		    	JOptionPane.showMessageDialog(null, "As soon as you come in something caught your attention");
+		    	JOptionPane.showMessageDialog(null, "A multi-colored potion");
+		    	JOptionPane.showMessageDialog(null, "You walk up to it and open the bottle. You start chugging it down with no concern what it might do");
+		    	JOptionPane.showMessageDialog(null, "Just a second later your stomach starts to hurt and then..");
+		    	JOptionPane.showMessageDialog(null, "POOF!!");
+		    	JOptionPane.showMessageDialog(null, "You turned into a multi-colored giraff with a short neck (end)");
 		    }
 		}
 
 	}
 	}
+}
 }
 }
 }

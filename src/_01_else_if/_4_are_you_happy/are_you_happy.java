@@ -19,7 +19,9 @@ public static void main(String[] args) {
 	if (sad.equals("no")) {
 		JOptionPane.showMessageDialog(null, "keep doing whatever you're doing");
 	}
-		
+	if (sad.equals("yes")) {
+		JOptionPane.showMessageDialog(null, "change something");
+	}
 	}
 
 	

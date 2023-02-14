@@ -32,8 +32,8 @@ public class ShinyObjects {
 		int count = Integer.parseInt(shiny);	
 		
 		// 3. Play the sound that many times
-for (int i=0; i<0; i++) {
-	
+for (int i=0; i<count; i++) {
+	playMisterZee();
 }
 
 	}
